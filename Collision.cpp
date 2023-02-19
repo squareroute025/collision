@@ -1,5 +1,8 @@
 #include "Collision.h"
 
+//基本的に学校のライブラリ使ってるので以下コメント
+//namespace Math = DirectX::SimpleMath;
+
 //当たってるかどうかだけわかる
 bool Collision::CircleAndCircle(Math::Vector2 a_xPos, float a_xRadius, Math::Vector2 a_yPos, float a_yRadius)
 {
